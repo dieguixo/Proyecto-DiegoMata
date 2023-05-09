@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Takenoko</title>
+    <link rel="shortcut icon" href="./assets/pictures/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" />
+    <script> src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"</script>
+ </head>
+<body>
+    <header class="header">
+        <!--logo-->
+        <a href="./index.html">
+            <img src="./assets/pictures/logo2.png" alt="logo" class="logo" />
+        </a>
+        <!-- Este es el menu Desktop -->
+        <nav class="header__Nav">
+            <ul class="header__Nav-list">
+                <li><a href="./pages/articulos.html">Artículos</a></li>
+                <li><a href="./pages/cursos.html">Cursos</a></li>
+                <li><a href="./pages/servicios.html">Servicios</a></li>
+                <li><a href="./pages/tienda.html">Tienda</a></li>
+            </ul>
+            <!-- Este es el menu Mobile -->
+            <div class="header__Nav-mobile">
+                <span>&#9776;</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--Párrafo introductorio a la web-->
+        <p class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolorem voluptates nesciunt ullam accusamus expedita. Nihil, quas ut. Tenetur iusto aliquid assumenda possimus nihil fuga perferendis deserunt dolores labore temporibus.</p>
+       
+        <!--Estas son las categorias-->
+        <section class="categorias">
+            <div class="categorias__cards">
+                <!-- Categoria1: Agricultura Urbana -->
+                <article class="categorias__cards--tarjeta">
+                    <a href="./pages/agriUrbana.html">
+                        <img src="./assets/pictures/agriUrbana.jpeg" alt="agricultura urbana">
+                    </a>
+                </article>
+                <!-- Categoria2: Alimentación saludable -->
+                <article class="categorias__cards--tarjeta">
+                     <a href="./pages/articulos.html">
+                        <img src="./assets/pictures/alimentacion.jpg" alt="alimentacion saludable">
+                    </a>
+                </article>
+                <!-- Categoria3: Alimentación saludable -->
+                <article class="categorias__cards--tarjeta">
+                    <a href="./pages/articulos.html">
+                        <img src="./assets/pictures/lifestyle.jpg" alt="lifestyle">
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!--Suscripción newsletter-->
+        <section class="newsletter">
+            <p>Suscríbete a nuestro newsletter</p>
+            <form action="" method="" enctype="">
+                <input type="email" placeholder="Ingresa tu email"/>
+                <button>Enviar</button> 
+        </section>
+        <!-- Artículos destacados -->
+        <section class="destacados">
+            <p>Artículos destacados</p>
+            <div class="destacados__articulos">
+                <a href="">
+                    <img src="./assets/pictures/hidroponia.jpg" alt="hidroponia">
+                </a>
+                <a href="">
+                    <img src="./assets/pictures/sustrato.jpg" alt="sustrato">
+                </a>
+            </div>
+            
+        </section>    
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <article class="footer__columna">
+            <h4>Contáctanos</h4>
+            <div>
+                <a href="">
+                    <img src="./assets/pictures/envelope.jpg" alt="sobre" class="iconos">
+                </a>
+                <a href="">
+                    <img src="./assets/pictures/whatsapp.png" alt="whatsapp" class="iconos">
+                </a>
+            </div>
+        </article>
+        <article class="footer__columna">
+            <h4>Síguenos en</h4>
+            <div class="footer__columna--iconos">
+                <img src="./assets/pictures/instagram_PNG9.png" alt="logo IG" class="iconos">
+                <img src="./assets/pictures/FB.png" alt="logo FB" class="iconos">
+                <img src="./assets/pictures/TW.png" alt="logo TW" class="iconos">
+                <img src="./assets/pictures/72-729738_youtube-red-circle-circle-youtube-logo-png-clipart.png" alt="logo YTB" class="iconos">
+            </div>
+        </article>
+    </footer>
+</body>
+</html>
