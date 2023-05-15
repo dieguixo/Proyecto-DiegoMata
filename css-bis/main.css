@@ -1,0 +1,190 @@
+@charset "UTF-8";
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* colores */
+/* breaking points responsive */
+/* Style para el header de todas las páginas */
+.header {
+  background-color: khaki;
+  height: 100px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Nav Bar */
+}
+.header__Nav-list {
+  display: none;
+  list-style-type: none;
+  max-width: 1200px;
+  margin: 0 40px;
+}
+.header__Nav-list a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: large;
+  text-decoration: none;
+}
+.header__Nav-list a:hover {
+  color: rgb(2, 150, 2);
+}
+.header__Nav-mobile span {
+  font-size: 50px;
+}
+
+/* Logo de TAKENOKO */
+.logo {
+  height: 100px;
+  width: auto;
+  margin-left: 50px;
+}
+
+@media (min-width: 768px) {
+  .header__Nav-list {
+    display: flex;
+  }
+  .header__Nav-list a {
+    margin: 0 20px;
+  }
+  .header__Nav-mobile {
+    display: none;
+  }
+}
+@media (min-width: 900px) {
+  .header__Nav-list a {
+    margin: 0 40px;
+  }
+}
+/* Introducción */
+.intro {
+  color: rgb(2, 150, 2);
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  padding: 40px 100px;
+  max-width: 1200px;
+}
+
+/* Categorias para temáticas principales */
+.categorias {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.categorias__cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+.categorias__cards--tarjeta {
+  width: min-content;
+  box-shadow: 5px 5px 20px -12px gray;
+  border-radius: 10px;
+  align-items: center;
+}
+.categorias__cards a img {
+  height: auto;
+  width: 250px;
+  border-radius: 10px;
+}
+
+/* Suscripción al newsletter */
+.newsletter {
+  background-color: khaki;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(2, 150, 2);
+}
+.newsletter p {
+  margin-bottom: 10px;
+}
+.newsletter form input {
+  width: 300px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+  margin: 20px 30px;
+}
+.newsletter form button {
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: block;
+}
+
+/* Artículos destacados */
+.destacados {
+  max-width: 1200px;
+  text-align: center;
+}
+.destacados p {
+  font-size: 25px;
+  color: rgb(2, 150, 2);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.destacados__articulos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.destacados__articulos img {
+  width: 400px;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .categorias__cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .newsletter form button {
+    display: inline;
+  }
+}
+@media (min-width: 900px) {
+  .destacados__articulos {
+    flex-direction: row;
+  }
+}
+/* Footer */
+.footer {
+  background-color: khaki;
+  font-size: 20px;
+  color: rgb(2, 150, 2);
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-rows: 1fr;
+}
+.footer__columna {
+  text-align: center;
+  max-width: 1200px;
+}
+.footer__columna h4 {
+  margin: 30px 0;
+}
+
+.iconos {
+  height: 40px;
+  width: 40px;
+  margin: 0 10px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+}

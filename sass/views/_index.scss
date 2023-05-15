@@ -1,0 +1,103 @@
+/* Introducción */
+.intro {
+    color: rgb(2, 150, 2);
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding: 40px 100px;
+    max-width: 1200px;
+}
+/* Categorias para temáticas principales */
+.categorias {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    &__cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+
+        &--tarjeta {
+            width: min-content;
+            box-shadow:  5px 5px 20px -12px gray;
+            border-radius: 10px;
+            align-items: center;
+        }
+
+        a img {
+            height: auto;
+            width: 250px;
+            border-radius: 10px;
+    }
+    }
+}
+/* Suscripción al newsletter */
+.newsletter {
+    background-color: $backcolor;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(2, 150, 2);
+    
+    & p {
+        margin-bottom: 10px;
+    }
+
+    & form input {
+        width: 300px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 20px;
+        margin: 20px 30px;
+    }
+    & form button {
+        font-size: 20px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        display: block;
+    }
+}
+/* Artículos destacados */
+.destacados {
+    max-width: 1200px;
+    text-align: center;
+
+    & p {
+        font-size: 25px;
+        color: rgb(2, 150, 2);
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    
+    &__articulos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        & img {
+            width: 400px;
+            height: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            border-radius: 10px;
+    }
+}
+}
+@media (min-width: $bpsmall) {
+    .categorias__cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .newsletter form button {
+        display: inline;
+    }
+}
+@media (min-width: $bpmedium) {
+    .destacados__articulos {
+        flex-direction: row;
+    }
+}

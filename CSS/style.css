@@ -5,7 +5,7 @@
 }
 /* Style para el index.html */
 .header {
-    background-color: khaki;
+    background-color: #f0e68c;
     height: 150px;
     position: relative;
     display: flex;
@@ -95,6 +95,9 @@
     padding: 5px 10px;
 }
 /* Artículos destacados */
+.destacados {
+    text-align: center;
+}
 .destacados p {
     font-size: 25px;
     color: rgb(2, 150, 2);
@@ -103,7 +106,8 @@
 }
 .destacados__articulos {
     display: flex;
-    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .destacados__articulos img {
     width: 60%;

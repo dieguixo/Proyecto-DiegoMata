@@ -1,0 +1,30 @@
+/* Footer */
+.footer {
+    background-color: $backcolor;
+    font-size: 20px;
+    color: rgb(2, 150, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-rows: 1fr;
+    
+    &__columna {
+        text-align: center;
+        max-width: 1200px;
+        
+        & h4 {
+            margin: 30px 0;
+        }
+    }
+}
+.iconos {
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+    margin-bottom: 30px;
+}
+@media (min-width: $bpsmall) {
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }    
+}

@@ -1,0 +1,14 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "./utils/variables";
+
+@import "./components/header";
+
+@import "./views/index";
+
+@import "./components/footer";
+
