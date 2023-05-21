@@ -95,9 +95,7 @@
 /* Suscripción al newsletter */
 .newsletter {
   background-color: khaki;
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 40px;
+  margin: 40px 0;
   padding: 30px 0;
   text-align: center;
   font-size: 25px;
@@ -252,4 +250,14 @@ main {
 iframe {
   align-content: center;
   margin: 40px 0;
+}
+
+.tienda {
+  max-width: 1200px;
+}
+.tienda p {
+  color: rgb(39, 117, 39);
+  font-size: 24px;
+  text-align: center;
+  max-width: 700px;
 }
