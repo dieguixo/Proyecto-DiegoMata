@@ -1,54 +1,53 @@
-/* Style para el header de todas las páginas */
+/* Style para el index.html */
 .header {
     background-color: $backcolor;
-    height: 100px;
+    height: 150px;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     /* Nav Bar */
+
     &__Nav-list {
         display: none;
         list-style-type: none;
-        max-width: 1200px;
-        margin: 0 40px;
-        
-        a {
+        margin: 0 100px;
+
+        & a {
             font-family: Arial, Helvetica, sans-serif;
             color: black;
             font-size: large;
             text-decoration: none;
+            margin: 0 20px;
         }
-        a:hover {
+        & a:hover {
             color: rgb(2, 150, 2);
         }
-    }       
-    &__Nav-mobile span {
-        font-size: 50px;
     }
+&__Nav-mobile span {
+    font-size: 50px;
 }
-    
-
+}
 /* Logo de TAKENOKO */
 .logo {
-    height: 100px;
+    height: 150px;
     width: auto;
     margin-left: 50px;
 }
+/* Media Queries */
 @media (min-width: $bpsmall) {
     .header__Nav-list {
         display: flex;
     }
-    .header__Nav-list a {
-        margin: 0 20px; 
-        }
     .header__Nav-mobile {
         display: none;
+    }
+    .categorias__cards {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 @media (min-width: $bpmedium) {
     .header__Nav-list a {
-            margin: 0 40px; 
+        margin: 0 40px;
     }
 }

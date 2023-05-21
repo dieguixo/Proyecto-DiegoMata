@@ -1,8 +1,9 @@
 /* Footer */
 .footer {
     background-color: $backcolor;
+    margin-top: 50px;
     font-size: 20px;
-    color: rgb(2, 150, 2);
+    color: $titcolor;
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
     grid-template-rows: 1fr;

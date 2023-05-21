@@ -1,0 +1,22 @@
+/* Articulos */
+h1 {
+    color: $titcolor;
+    text-align: center;
+    padding: 40px;
+}
+.txtnoshow {
+    display: none;
+}
+.container {
+    margin-top: 30px;
+}
+.articulos__titulo {
+    text-align: center;
+}
+
+@media (min-width: $bpsmall) {
+    .txtnoshow {
+        display: inline;
+        text-align: center;
+    }
+}
