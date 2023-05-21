@@ -1,0 +1,18 @@
+.agriUrbana {
+    color: $titcolor;
+    max-width: 1200px;
+
+    & p {
+        font-size: 24px;
+    }
+    & img {
+        margin: 30px 0;
+        width: 500px;
+        height: auto;   
+    }
+}
+iframe {
+    align-content: center;
+    margin: 40px 0;
+   
+}

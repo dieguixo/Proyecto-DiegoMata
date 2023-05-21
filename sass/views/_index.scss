@@ -1,6 +1,6 @@
 /* Introducción */
 .intro {
-    color: rgb(2, 150, 2);
+    color: $titcolor;
     font-size: 22px;
     font-weight: 700;
     text-align: center;
@@ -41,7 +41,7 @@
     text-align: center;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(2, 150, 2);
+    color: $titcolor;
     
     & p {
         margin-bottom: 10px;
@@ -70,7 +70,7 @@
 
     & p {
         font-size: 25px;
-        color: rgb(2, 150, 2);
+        color: $titcolor;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
     }

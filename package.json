@@ -1,7 +1,7 @@
 {
   "name": "proyecto",
   "version": "1.0.0",
-  "description": "Archivos para segunda pre entrega",
+  "description": "Archivos para tercera pre entrega",
   "main": "index.js",
   "scripts": {
     "build-sass": "sass ./sass/main.scss ./css-bis/main.css -w --no-source-map"

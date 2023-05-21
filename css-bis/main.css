@@ -62,7 +62,7 @@
 }
 /* Introducción */
 .intro {
-  color: rgb(2, 150, 2);
+  color: rgb(39, 117, 39);
   font-size: 22px;
   font-weight: 700;
   text-align: center;
@@ -102,7 +102,7 @@
   text-align: center;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(2, 150, 2);
+  color: rgb(39, 117, 39);
 }
 .newsletter p {
   margin-bottom: 10px;
@@ -130,7 +130,7 @@
 }
 .destacados p {
   font-size: 25px;
-  color: rgb(2, 150, 2);
+  color: rgb(39, 117, 39);
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
@@ -216,6 +216,10 @@ h1 {
     text-align: center;
   }
 }
+main {
+  max-width: 1200px;
+}
+
 .cursocard {
   display: grid;
   grid-template-columns: 1fr;
@@ -231,4 +235,21 @@ h1 {
   .cursocard {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+.agriUrbana {
+  color: rgb(39, 117, 39);
+  max-width: 1200px;
+}
+.agriUrbana p {
+  font-size: 24px;
+}
+.agriUrbana img {
+  margin: 30px 0;
+  width: 500px;
+  height: auto;
+}
+
+iframe {
+  align-content: center;
+  margin: 40px 0;
 }
