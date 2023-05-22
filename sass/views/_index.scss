@@ -10,7 +10,7 @@
 /* Categorias para temáticas principales */
 .categorias {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 10 auto;
     
     &__cards {
         display: grid;
@@ -23,26 +23,25 @@
             border-radius: 10px;
             align-items: center;
         }
-
-        a img {
-            height: auto;
-            width: 250px;
-            border-radius: 10px;
-    }
     }
 }
+a img {
+    height: auto;
+    width: 250px;
+    border-radius: 10px;
+    }
 /* Suscripción al newsletter */
 .newsletter {
     background-color: $backcolor;
     margin: 40px 0;
-    padding: 30px 0;
+    padding: 20px 0;
     text-align: center;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: $titcolor;
     
     & p {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
    
     & form input {
@@ -51,7 +50,7 @@
         border-radius: 5px;
         padding: 5px;
         font-size: 20px;
-        margin: 20px 30px;
+        margin: 20px 0px;
     }
     & form button {
         font-size: 20px;

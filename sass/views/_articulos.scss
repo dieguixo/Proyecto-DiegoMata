@@ -13,10 +13,16 @@ h1 {
 .articulos__titulo {
     text-align: center;
 }
+.articulos__resumen {
+    font-style: italic;
+}
 
 @media (min-width: $bpsmall) {
     .txtnoshow {
         display: inline;
         text-align: center;
+    }
+    .articulos__titulo {
+        padding-top: 15px;
     }
 }
