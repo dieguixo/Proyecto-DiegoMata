@@ -32,6 +32,10 @@
 .header__Nav-list a:hover {
   color: rgb(39, 117, 39);
 }
+.header__Nav-list li:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
 .header__Nav-mobile span {
   font-size: 50px;
 }
@@ -184,6 +188,11 @@ a img {
   margin-bottom: 30px;
 }
 
+.iconos:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+
 @media (min-width: 770px) {
   .footer {
     grid-template-columns: 1fr 1fr;
@@ -194,7 +203,7 @@ a img {
 h1 {
   color: rgb(39, 117, 39);
   text-align: center;
-  padding: 40px;
+  padding: 30px;
 }
 
 .txtnoshow {

@@ -22,6 +22,10 @@
         }
         & a:hover {
             color: $titcolor;
+        } 
+        & li:hover {
+            transform: scale(1.2);
+            transition: 0.5s;
         }
     }
 &__Nav-mobile span {
