@@ -22,12 +22,12 @@
     height: auto;
     margin: 0 10px;
     margin-bottom: 30px;
-}
-&:hover {
-    transform: scale(1.5);
-    transition: 1s;
-}
 
+    &:hover {
+        transform: scale(1.5);
+        transition: 1s;
+    }
+}
 @media (min-width: $bpsmall) {
     .footer {
         grid-template-columns: 1fr 1fr;
