@@ -206,6 +206,30 @@ h1 {
   padding: 30px;
 }
 
+.introArticulos {
+  color: rgb(39, 117, 39);
+  font-size: 22px;
+  text-align: center;
+  max-width: 10000px;
+  margin-bottom: 40px;
+}
+
+.banner {
+  width: 1200px;
+  height: 100px;
+  background-image: url(/assets/pictures/tallos.jpeg);
+  margin-bottom: 50px;
+}
+
+.banner img {
+  display: none;
+  margin: 30px;
+}
+
+.bannerSpace {
+  margin-top: 50px;
+}
+
 .txtnoshow {
   display: none;
 }
@@ -223,6 +247,9 @@ h1 {
 }
 
 @media (min-width: 770px) {
+  .banner img {
+    display: inline;
+  }
   .txtnoshow {
     display: inline;
     text-align: center;
