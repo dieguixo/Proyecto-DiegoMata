@@ -4,7 +4,7 @@
   "description": "Archivos para tercera pre entrega",
   "main": "index.js",
   "scripts": {
-    "build-sass": "sass ./sass/main.scss ./css-bis/main.css -w --no-source-map"
+    "build-sass": "sass ./sass/main.scss ./css/main.css -w --no-source-map"
   },
   "author": "",
   "license": "ISC",
