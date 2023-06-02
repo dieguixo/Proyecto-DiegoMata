@@ -28,9 +28,35 @@
             transition: 0.5s;
         }
     }
-&__Nav-mobile span {
-    font-size: 50px;
-}
+&__Nav-mobile {
+    span {
+        font-size: 50px;
+    }
+    ul {
+        position: absolute;
+        right: 0;
+        top: 100px;
+        background-color: khaki;
+        width: 150px;
+        display: none;
+        
+
+        li {
+            padding: 20px 0;
+            text-align: center;
+            list-style-type: none;
+
+            a {
+                color: black;
+                text-decoration: none;
+                font-size: 20px;
+            }
+        }
+    }
+    &:hover ul {
+        display: block;
+    }
+    }
 }
 /* Logo de TAKENOKO */
 .logo {
