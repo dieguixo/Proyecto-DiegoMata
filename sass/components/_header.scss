@@ -72,9 +72,6 @@
     .header__Nav-mobile {
         display: none;
     }
-    .categorias__cards {
-        grid-template-columns: repeat(3, 1fr);
-    }
 }
 @media (min-width: $bpmedium) {
     .header__Nav-list a {
