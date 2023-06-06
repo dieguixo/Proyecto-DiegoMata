@@ -19,13 +19,14 @@
         width: auto;
         height: auto;
         gap: 40px;
-        margin-top: 25px;
+        margin: 25px;
 
         &--tarjeta {
             width: min-content;
             box-shadow:  5px 5px 20px -12px gray;
             border-radius: 10px;
             align-items: center;
+            margin-bottom: 30px;
         }
     }
 }
