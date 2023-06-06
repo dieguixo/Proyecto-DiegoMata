@@ -1,4 +1,3 @@
 # Proyecto para el curso de Coder
 
-Tercera pre entrega 
-
+Versión final del proyecto para curso de Desarrollo Web - Comisión 52405
