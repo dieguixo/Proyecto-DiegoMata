@@ -1,5 +1,6 @@
 /* Introducción */
 .intro {
+    display: none;
     color: $titcolor;
     font-size: 22px;
     font-weight: 700;
@@ -15,7 +16,10 @@
     &__cards {
         display: grid;
         grid-template-columns: 1fr;
+        width: auto;
+        height: auto;
         gap: 40px;
+        margin-top: 25px;
 
         &--tarjeta {
             width: min-content;
@@ -36,7 +40,7 @@ a img {
     margin: 40px 0;
     padding: 20px 0;
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: $titcolor;
     
@@ -53,7 +57,7 @@ a img {
         margin: 20px 0px;
     }
     & form button {
-        font-size: 20px;
+        font-size: 17px;
         border-radius: 5px;
         padding: 5px 10px;
         display: inline;
@@ -61,7 +65,7 @@ a img {
     }
 }
 .carrusel {
-    width: 500px;
+    width: 50%;
     height: auto;
 }
 /* Artículos destacados */
@@ -91,14 +95,27 @@ a img {
 }
 }
 @media (min-width: $bpsmall) {
+    .intro {
+        display: inline-block;
+        font-size: 17px;
+    }
     .categorias__cards {
         grid-template-columns: repeat(3, 1fr);
+        margin-top: 0;
     }
-    .newsletter form button {
-        display: inline;
+    .newsletter {
+        font-size: 22px;
+        
+        & form button {
+            display: inline;
+            font-size: 20px;
+        }
     }
 }
 @media (min-width: $bpmedium) {
+    .intro {
+        font-size: 22px;
+    }
     .destacados__articulos {
         flex-direction: row;
     }
